@@ -31,19 +31,19 @@
 ### 이것이 코딩 테스트다 with 파이썬 
   ![img.png](static/img.png)
 
-No | CHAPTER | 바로가기 |
----|---|---|
-1 | 그리디(greedy) |  |
-2 | 구현(implementation) |  |
-3 | DFS / BFS |  |
-4 | 정렬(sort) |  |
-5 | 이진 탐색(binary_search) |  |
-6 | 다이나믹 프로그래밍(dynamic programming) |  |
-7 | 최단 경로(sort_path) |  |
-8 | 그래프 이론(graph) |  |
+No | CHAPTER |
+---|---|
+1 | [그리디(greedy)](https://github.com/RyuMyunggi/algorithm/tree/main/algorithm/greedy) |
+2 | [구현(implementation)](https://github.com/RyuMyunggi/algorithm/tree/main/algorithm/implementation)|
+3 | [DFS / BFS](https://github.com/RyuMyunggi/algorithm/tree/main/algorithm/dfs_bfs) |
+4 | [정렬(sort)](https://github.com/RyuMyunggi/algorithm/tree/main/algorithm/sort) |
+5 | [이진 탐색(binary_search)](https://github.com/RyuMyunggi/algorithm/tree/main/algorithm/binary_search) |
+6 | [다이나믹 프로그래밍(dynamic programming)](https://github.com/RyuMyunggi/algorithm/tree/main/algorithm/dynamic_programming) |
+7 | [최단 경로(sort_path)] |
+8 | [그래프 이론(graph)] |
 
 ### programmers
-* 바로가기: 
+* [바로가기](https://github.com/RyuMyunggi/algorithm/tree/main/programmers) 
 
 
 
