@@ -51,8 +51,8 @@ lottos	win_nums	result
 민우가 구매한 로또의 번호와 당첨 번호가 모두 일치하므로, 최고 순위와 최저 순위는 모두 1등입니다.
 """
 
-
-def solution(lottos, win_nums):
+# my_soultion
+def solution1(lottos, win_nums):
     answer = []
 
     count = 0
@@ -88,7 +88,23 @@ def get_rank(answer):
         return 6
 
 
+# programmers solution
+def solution2(lottos, win_nums):
+    """
+    key
+    list count function()
+    """
+    rank = [6, 6, 5, 4, 3, 2, 1]
+
+    cnt_0 = lottos.count(0)
+    ans = 0
+    for x in win_nums:
+        if x in lottos:
+            ans += 1
+    return rank[cnt_0 + ans], rank[ans]
+
+
 if __name__ == '__main__':
     lottos = [44, 1, 0, 0, 31, 25]
     win_nums = [31, 10, 45, 1, 6, 19]
-    print(solution(lottos, win_nums))
+    print(solution1(lottos, win_nums))
